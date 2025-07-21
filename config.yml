@@ -1,0 +1,28 @@
+databaseType: GeoLite2-Country
+recordSize:   24
+useValueCache: true
+
+fields:
+  - name: geoname_id
+    target: country.geoname_id
+    type:   uint32
+
+  - name: registered_country_geoname_id
+    target: registered_country.geoname_id
+    type:   uint32
+
+  - name: represented_country_geoname_id
+    target: represented_country.geoname_id
+    type:   uint32
+
+  - name: is_anonymous_proxy
+    target: traits.is_anonymous_proxy
+    type:   boolean
+
+  - name: is_satellite_provider
+    target: traits.is_satellite_provider
+    type:   boolean
+
+  - name: is_anycast
+    target: traits.is_anycast
+    type:   boolean
