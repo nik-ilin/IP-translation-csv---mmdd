@@ -39,3 +39,4 @@ NOTE:
 - Each file path must be specified fully (absolute path).
 - The first run may generate an invalid .mmdb file of 0 bytes.
 - The second run should complete successfully.
+- Also understand that the converter I used is csv2mmdb, so you must have installed that via https://github.com/fholzer/csv2mmdb
